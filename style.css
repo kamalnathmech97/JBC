@@ -1,0 +1,102 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-size: sans-serif;
+    box-sizing: border-box;
+}
+#container
+{
+height: 100vh;
+width:100%;
+position:relative;
+top:0;
+left:0;
+background: #e9e9eb;
+}
+#container #logo
+{
+    position: absolute;
+    top: 5px;
+    left: 45px;
+    font-size: 20px;
+    z-index: 997;
+    font-weight: bold;
+    color:#165397;
+}
+#navbar
+{
+height:90px ;
+width: 100%;
+position: absolute;
+top:0;
+left:0;
+background:#fdfefe;
+display: grid;
+place-items:center;
+}
+#navbar ul
+{
+list-style: none;
+display: flex;
+flex-direction: row;
+}
+#navbar ul li
+{
+    font-size: 20px;
+    margin:0 45px;
+}
+#navbar ul li a
+{
+text-decoration: none;
+color: #000;
+}
+#navbar ul li a:hover
+{
+color:#165397;
+}
+#navbar ul li #login
+{
+    height:50px;
+    width:120px;
+    position:absolute;
+    top:20px;
+    right:7%;
+    display:grid;
+    place-items: center;
+    background: #165397;
+    border-radius: 10px 20px;
+}
+#navbar ul li #login a
+{
+    color: #e9e9eb;
+}
+#navbar ul li #login:hover
+{
+background: #000;
+}
+
+#content
+{
+    position: absolute;
+    top:30%;
+    left:10%;
+    z-index: 996;
+}
+
+#content h2{
+    font-size: 100px;
+    color: #165397;
+}
+#content hover:h2{
+    color:#000;
+}
+#content h4{
+    font-size: 40px;
+    text-align:center;
+    color:#000;
+    margin-top: 15%;
+}
+#content hover:h4{
+    color:#165397
+}
